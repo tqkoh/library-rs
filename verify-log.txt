@@ -1,0 +1,350 @@
+Script started, output log file is '/dev/null'.
+[32mINFO[0m:onlinejudge_verify.config:no config file[0m
+[1m[33mwarning[0m[1m:[0m virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+[1m[36mnote[0m[1m:[0m to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+[1m[36mnote[0m[1m:[0m to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+[1m[36mnote[0m[1m:[0m for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+[1m[33mwarning[0m[1m:[0m virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+[1m[36mnote[0m[1m:[0m to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+[1m[36mnote[0m[1m:[0m to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+[1m[36mnote[0m[1m:[0m for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+[1m[33mwarning[0m[1m:[0m virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+[1m[36mnote[0m[1m:[0m to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+[1m[36mnote[0m[1m:[0m to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+[1m[36mnote[0m[1m:[0m for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+[1m[32m    Checking[0m library-rs v0.1.0 (/home/runner/work/library-rs/library-rs/crates/lib)
+[1m[32m    Checking[0m library-rs-verify v0.1.0 (/home/runner/work/library-rs/library-rs/crates/verify)
+[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.09s
+[32mINFO[0m:onlinejudge_verify.main:$ git checkout master[0m
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+error: pathspec '.verify-helper/.gitignore' did not match any file(s) known to git
+Did you forget to 'git add'?
+[32mINFO[0m:onlinejudge_verify.main:$ git checkout master[0m
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+[32mINFO[0m:onlinejudge_verify.verify:verify: crates/verify/src/bin/aoj_itp1_3_d.rs[0m
+[32mINFO[0m:onlinejudge_verify.verify:problem: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_3_D[0m
+[32mINFO[0m:onlinejudge_verify.verify:$ sleep 2[0m
+[32mINFO[0m:onlinejudge_verify.verify:$ oj download --system -d .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test --silent https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_3_D[0m
+[[34mINFO[0m] GET: https://pypi.org/pypi/online-judge-tools/json
+[[34mINFO[0m] 200 OK
+[[33mWARNING[0m] failed to load the cache in update checking: 'online-judge-api-client'
+[[34mINFO[0m] GET: https://pypi.org/pypi/online-judge-api-client/json
+[[34mINFO[0m] 200 OK
+[[34mINFO[0m] online-judge-tools 11.5.1 (+ online-judge-api-client 10.10.1)
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/header
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/1/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/1/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/2/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/2/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/3/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/3/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/4/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/4/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/5/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/5/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/6/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/6/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/7/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/7/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/8/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/8/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/9/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/9/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/10/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/10/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/11/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/11/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/12/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/12/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/13/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/13/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/14/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/14/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/15/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/15/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/16/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/16/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/17/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/17/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/18/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/18/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/19/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/19/out
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/20/in
+[[35mNETWORK[0m] 200 OK
+[[35mNETWORK[0m] GET: https://judgedat.u-aizu.ac.jp/testcases/ITP1_3_D/20/out
+[[35mNETWORK[0m] 200 OK
+[[34mINFO[0m] save cookie to: /home/runner/.local/share/online-judge-tools/cookie.jar
+
+[[34mINFO[0m] sample 0
+[[34mINFO[0m] input: 00_sample_00.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/00_sample_00.in.in
+[[34mINFO[0m] output: 00_sample_00.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/00_sample_00.in.out
+
+[[34mINFO[0m] sample 1
+[[34mINFO[0m] input: 01_corner_00.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_00.in.in
+[[34mINFO[0m] output: 01_corner_00.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_00.in.out
+
+[[34mINFO[0m] sample 2
+[[34mINFO[0m] input: 01_corner_01.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_01.in.in
+[[34mINFO[0m] output: 01_corner_01.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_01.in.out
+
+[[34mINFO[0m] sample 3
+[[34mINFO[0m] input: 01_corner_02.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_02.in.in
+[[34mINFO[0m] output: 01_corner_02.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_02.in.out
+
+[[34mINFO[0m] sample 4
+[[34mINFO[0m] input: 01_corner_03.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_03.in.in
+[[34mINFO[0m] output: 01_corner_03.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_03.in.out
+
+[[34mINFO[0m] sample 5
+[[34mINFO[0m] input: 01_corner_04.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_04.in.in
+[[34mINFO[0m] output: 01_corner_04.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_04.in.out
+
+[[34mINFO[0m] sample 6
+[[34mINFO[0m] input: 01_corner_05.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_05.in.in
+[[34mINFO[0m] output: 01_corner_05.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_05.in.out
+
+[[34mINFO[0m] sample 7
+[[34mINFO[0m] input: 01_corner_06.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_06.in.in
+[[34mINFO[0m] output: 01_corner_06.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/01_corner_06.in.out
+
+[[34mINFO[0m] sample 8
+[[34mINFO[0m] input: 02_rand_00.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_00.in.in
+[[34mINFO[0m] output: 02_rand_00.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_00.in.out
+
+[[34mINFO[0m] sample 9
+[[34mINFO[0m] input: 02_rand_01.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_01.in.in
+[[34mINFO[0m] output: 02_rand_01.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_01.in.out
+
+[[34mINFO[0m] sample 10
+[[34mINFO[0m] input: 02_rand_02.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_02.in.in
+[[34mINFO[0m] output: 02_rand_02.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_02.in.out
+
+[[34mINFO[0m] sample 11
+[[34mINFO[0m] input: 02_rand_03.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_03.in.in
+[[34mINFO[0m] output: 02_rand_03.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_03.in.out
+
+[[34mINFO[0m] sample 12
+[[34mINFO[0m] input: 02_rand_04.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_04.in.in
+[[34mINFO[0m] output: 02_rand_04.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_04.in.out
+
+[[34mINFO[0m] sample 13
+[[34mINFO[0m] input: 02_rand_05.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_05.in.in
+[[34mINFO[0m] output: 02_rand_05.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_05.in.out
+
+[[34mINFO[0m] sample 14
+[[34mINFO[0m] input: 02_rand_06.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_06.in.in
+[[34mINFO[0m] output: 02_rand_06.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_06.in.out
+
+[[34mINFO[0m] sample 15
+[[34mINFO[0m] input: 02_rand_07.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_07.in.in
+[[34mINFO[0m] output: 02_rand_07.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/02_rand_07.in.out
+
+[[34mINFO[0m] sample 16
+[[34mINFO[0m] input: 03_maximum_00.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/03_maximum_00.in.in
+[[34mINFO[0m] output: 03_maximum_00.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/03_maximum_00.in.out
+
+[[34mINFO[0m] sample 17
+[[34mINFO[0m] input: 03_maximum_01.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/03_maximum_01.in.in
+[[34mINFO[0m] output: 03_maximum_01.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/03_maximum_01.in.out
+
+[[34mINFO[0m] sample 18
+[[34mINFO[0m] input: 03_maximum_02.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/03_maximum_02.in.in
+[[34mINFO[0m] output: 03_maximum_02.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/03_maximum_02.in.out
+
+[[34mINFO[0m] sample 19
+[[34mINFO[0m] input: 03_maximum_03.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/03_maximum_03.in.in
+[[34mINFO[0m] output: 03_maximum_03.in
+[[32mSUCCESS[0m] saved to: .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test/03_maximum_03.in.out
+[0m[1m[33mwarning[0m[1m:[0m virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+[1m[36mnote[0m[1m:[0m to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+[1m[36mnote[0m[1m:[0m to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+[1m[36mnote[0m[1m:[0m for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+[1m[32m   Compiling[0m cargo-snippet v0.6.5
+[1m[32m   Compiling[0m library-rs v0.1.0 (/home/runner/work/library-rs/library-rs/crates/lib)
+[1m[32m   Compiling[0m library-rs-verify v0.1.0 (/home/runner/work/library-rs/library-rs/crates/verify)
+[1m[32m    Finished[0m release [optimized] target(s) in 0.45s
+[32mINFO[0m:onlinejudge_verify.verify:$ oj test -c /home/runner/work/library-rs/library-rs/target/release/aoj_itp1_3_d -d .verify-helper/cache/db520428a771b5d877ed5b935613c8d2/test --print-input --tle 60[0m
+[[34mINFO[0m] online-judge-tools 11.5.1 (+ online-judge-api-client 10.10.1)
+[[34mINFO[0m] 20 cases found
+
+[[34mINFO[0m] 00_sample_00.in
+[[34mINFO[0m] time: 0.004037 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 01_corner_00.in
+[[34mINFO[0m] time: 0.003960 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 01_corner_01.in
+[[34mINFO[0m] time: 0.003860 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 01_corner_02.in
+[[34mINFO[0m] time: 0.003797 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 01_corner_03.in
+[[34mINFO[0m] time: 0.003962 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 01_corner_04.in
+[[34mINFO[0m] time: 0.003868 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 01_corner_05.in
+[[34mINFO[0m] time: 0.004025 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 01_corner_06.in
+[[34mINFO[0m] time: 0.004027 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 02_rand_00.in
+[[34mINFO[0m] time: 0.003768 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 02_rand_01.in
+[[34mINFO[0m] time: 0.003878 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 02_rand_02.in
+[[34mINFO[0m] time: 0.003769 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 02_rand_03.in
+[[34mINFO[0m] time: 0.003863 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 02_rand_04.in
+[[34mINFO[0m] time: 0.003886 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 02_rand_05.in
+[[34mINFO[0m] time: 0.003949 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 02_rand_06.in
+[[34mINFO[0m] time: 0.003798 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 02_rand_07.in
+[[34mINFO[0m] time: 0.003736 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 03_maximum_00.in
+[[34mINFO[0m] time: 0.003855 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 03_maximum_01.in
+[[34mINFO[0m] time: 0.003924 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 03_maximum_02.in
+[[34mINFO[0m] time: 0.003741 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] 03_maximum_03.in
+[[34mINFO[0m] time: 0.003772 sec
+[[32mSUCCESS[0m] [32mAC[39m
+
+[[34mINFO[0m] slowest: 0.004037 sec  (for 00_sample_00.in)
+[[34mINFO[0m] max memory: 2.048000 MB  (for 01_corner_00.in)
+[[32mSUCCESS[0m] test [32msuccess[39m: 20 cases
+[0m[32mINFO[0m:onlinejudge_verify.main:use GITHUB_TOKEN[0m
+[32mINFO[0m:onlinejudge_verify.main:GITHUB_ACTOR = tqkoh[0m
+[32mINFO[0m:onlinejudge_verify.main:GITHUB_REPOSITORY = tqkoh/library-rs[0m
+[32mINFO[0m:onlinejudge_verify.main:$ git add .verify-helper/timestamps.remote.json && git commit && git push[0m
+[master e1bfcdf] [auto-verifier] verify commit 902fa410587efe75315c60cde09242a8b0299ede
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 405 bytes | 405.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)        remote: Resolving deltas: 100% (1/1)        remote: Resolving deltas: 100% (1/1), completed with 1 local object.        
+To https://github.com/tqkoh/library-rs.git
+   902fa41..e1bfcdf  HEAD -> master
+[32mINFO[0m:onlinejudge_verify.verify:all tests succeeded[0m
+Script done.
